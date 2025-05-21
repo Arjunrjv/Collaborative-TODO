@@ -1,0 +1,49 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+*.lock
+migrate_working_dir/
+buildlog/
+.history
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melody
+.metadata
+
+# Generated files
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Build output
+build/
+android/app/debug
+android/app/profile
+android/app/release
+
+# Obfuscation and symbolication
+app.*.map.json
+app.*.symbols
